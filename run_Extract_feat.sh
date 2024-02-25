@@ -40,7 +40,7 @@ parse_args "$@"
 # selected_psychs=(psych_ver_1.1 psych_ver_2.1 Positive_attributes)
 # selected_psychs=(psych_ver_2.1 Positive_attributes)
 # selected_psychs=(psych_ver_3) #ver3 please use another script
-selected_psychs=(psych_ver_1.1_highcorr)
+selected_psychs=(psych_ver_1.1)
 
 audioInfile_root=/home/FedASR/dacs/centralized/saves/results
 # infile=(data2vec-audio-large-960h_test.csv data2vec-audio-large-960h_train.csv)
