@@ -3,7 +3,7 @@
 This repo supports the paper "Profiling Patient Transcript Using Large Language Model Reasoning Augmentation for Alzheimer's Disease Detection", and provides the [prompt](https://github.com/JackingChen/Reason_Augment_AD_detect/blob/main/prompts.py) and the code of the main architecture (BERTbackbone+the classification dense layers). The final proposed prompt is denoted as psych_ver_1.1, which is in line 314, the value assigned to **Direct_template['psych_ver_1.1']** in the file [prompt.py](https://github.com/JackingChen/Reason_Augment_AD_detect/blob/main/prompts.py)
 
 
-![framework](./framework.png)
+![framework](framework.png)
 
 ---
 
