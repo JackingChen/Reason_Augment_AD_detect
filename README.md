@@ -10,20 +10,21 @@ This repo supports the paper "Profiling Patient Transcript Using Large Language 
 To execute the codes, the first step is to download the [ADReSS dataset](https://dementia.talkbank.org/ADReSS-2020/). Since the data is under strict data usage constraint, we cannot provide the dataset in this repo, and you will have to apply for permission to use this dataset. 
 
 Once you get the dataset, the data structure will be something like
+```
 .
 ├── clips
 ├── csv_gen.py
 ├── dev.tsv
 ├── test.tsv
 ├── train.tsv
-
+```
 
 Then specify the train, dev, test data and manage to create train.csv, dev.csv, test.csv, where in each csv, there should be four columns: path, text dementia_labels, ID:
-
+```
 | path | text | dementia\_labels | ID |
 | :-- | :-- | :-- | :-- |
 | S183\_PAR\_5\_XX\_XX.wav | XXX | 0 | S183 |
-
+```
 and collect the csvs in a same folder like:
 <your folder name>
 ├── dev.csv
